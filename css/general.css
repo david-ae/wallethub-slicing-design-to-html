@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold Italic";
+  src: url(../fonts/Proxima\ Nova\ Bold\ Italic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url(../fonts/Proxima\ Nova\ Light.otf);
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular Italic";
+  src: url(../fonts/Proxima\ Nova\ Regular\ Italic.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold Italic";
+  src: url(../fonts/Proxima\ Nova\ Semibold\ Italic.otf);
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url(../fonts/Proxima\ Nova\ Semibold.otf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Black";
+  src: url(../fonts/ProximaNova-Black.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-BlackIt";
+  src: url(../fonts/ProximaNova-BlackIt.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url(../fonts/ProximaNova-Bold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Extrabldt";
+  src: url(../fonts/ProximaNova-ExtrabldIt.otf);
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Extrabold";
+  src: url(../fonts/ProximaNova-Extrabold.otf);
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-LightItalic";
+  src: url(../fonts/ProximaNova-LightItalic.otf);
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "ProximaNova-Reg";
+  src: url(../fonts/ProximaNova-Reg.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-Thin";
+  src: url(../fonts/ProximaNova-Thin.otf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova-ThinIt";
+  src: url(../fonts/ProximaNova-ThinIt.otf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+button {
+  height: 3.2rem;
+}

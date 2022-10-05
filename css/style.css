@@ -1,0 +1,171 @@
+body {
+  font-family: "Proxima Nova Bold Italic", sans-serif;
+  background-color: #f1f5f8;
+}
+
+.container {
+  display: grid;
+  max-width: 120rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.header {
+  display: grid;
+  background-color: #23123a;
+  grid-template-rows: 1fr 1fr auto;
+  border: 1px solid black;
+}
+
+.header-design {
+  position: relative;
+}
+
+.top-message {
+  font-family: "ProximaNova-Reg";
+  position: absolute;
+  top: 1.6rem;
+  color: white;
+  left: 4.8rem;
+  font-size: 8.4rem;
+}
+
+.top-bar {
+  background-color: #23123a;
+}
+
+.header-bg {
+  transform: scaleX(1.4);
+  transform: scale(1);
+  vertical-align: middle;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "ProximaNova-Reg";
+  height: 4.5rem;
+  list-style: none;
+  font-size: 1.6rem;
+  background-color: #ffffff;
+}
+
+.mobile-main-nav {
+  display: none;
+}
+
+.main-nav-list-item {
+  flex: 1 1 20rem;
+  align-self: center;
+  justify-content: center;
+  border-right: 2px solid #edeff0;
+  text-align: center;
+}
+
+.main-nav-link:link {
+  text-decoration: none;
+  color: #373737;
+  font-weight: bold;
+}
+
+.main-nav-link:last-child {
+  border-right: none;
+}
+
+.primary-heading {
+  font-family: "ProximaNova-Bold";
+  color: #373737;
+  padding: 2.4rem 0 0 0;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.barclaycard {
+  background-color: #ffffff;
+  padding: 3.2rem;
+  margin: 3.2rem;
+}
+
+.barclaycard-top-section {
+  font-family: "ProximaNova-Thin";
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.secondary-heading {
+  font-family: "ProximaNova-Thin";
+}
+
+.barclaycard-details {
+  padding-top: 3.2rem;
+  display: flex;
+  flex: 1 0 5rem;
+  gap: 4.8rem;
+}
+
+.left-side {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.left-side-content {
+  font-family: "ProximaNova-Thin";
+  font-size: 1.6rem;
+  display: grid;
+  gap: 1rem;
+  justify-items: space-between;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 1.6rem;
+}
+
+.left-side-content-right {
+  text-align: center;
+}
+
+.approval-odds {
+  text-align: center;
+}
+
+.very-good {
+  background-color: #59d8d1;
+  border-radius: 1rem;
+  font-family: "ProximaNova-Reg";
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.apply-now {
+  background-color: #fa6e3d;
+  font-size: 1.5rem;
+  font-family: "ProximaNova-Reg";
+  border-radius: 0.5rem;
+  border: none;
+  color: #ffffff;
+}
+
+.right-side {
+  font-family: "ProximaNova-Reg";
+  color: #1194f6;
+}
+
+.right-side-description {
+  line-height: 3.2rem;
+  font-size: 1.4rem;
+}
+
+.see-details {
+  color: #1194f6;
+  font-family: "ProximaNova-Reg";
+  font-size: 1.4rem;
+  margin-top: 1.6rem;
+}

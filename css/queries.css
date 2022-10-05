@@ -1,0 +1,122 @@
+@media (max-width: 26em) {
+  .container {
+    max-width: 26em;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .top-message {
+    top: 0.5rem;
+    color: white;
+    left: 1rem;
+    font-size: 3.2rem;
+  }
+
+  .primary-heading {
+    font-size: 2rem;
+    padding: 2.4rem 0 0 0;
+  }
+
+  .left-side {
+    grid-template-rows: 1fr;
+  }
+
+  .barclaycard {
+    background-color: #ffffff;
+    padding: 2.4rem;
+    margin: 2.4rem;
+  }
+
+  .reviews {
+    display: none;
+  }
+
+  .barclaycard-details {
+    padding-top: 3.2rem;
+    display: grid;
+    gap: 2.4rem;
+  }
+
+  .mobile-main-nav {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: "ProximaNova-Reg";
+    height: 4.5rem;
+    list-style: none;
+    font-size: 1rem;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 52em) {
+  .reviews {
+    display: none;
+  }
+
+  .top-message {
+    top: 1rem;
+    color: white;
+    left: 3.2rem;
+    font-size: 4.8rem;
+  }
+
+  .barclaycard {
+    background-color: #ffffff;
+    padding: 2.4rem;
+    margin: 2.4rem;
+  }
+
+  .barclaycard-details {
+    display: grid;
+    gap: 0.4rem;
+  }
+
+  .left-side {
+    grid-template-rows: 1fr;
+  }
+
+  .left-side-content {
+    font-size: 1.6rem;
+    display: flex;
+    gap: 1rem;
+    justify-items: space-between;
+    margin-bottom: 1.6rem;
+  }
+
+  .left-side-content-right {
+    flex: 1 1 auto;
+  }
+
+  .left-side-content-left {
+    flex: 1 0 6.4rem;
+  }
+
+  .right-side {
+    text-align: justify;
+  }
+
+  .right-side-description {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 57em) {
+  .top-message {
+    top: 1rem;
+    color: white;
+    left: 4.8rem;
+    font-size: 5.2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .top-message {
+    top: 1rem;
+    color: white;
+    left: 2.4rem;
+    font-size: 4.6rem;
+  }
+}
